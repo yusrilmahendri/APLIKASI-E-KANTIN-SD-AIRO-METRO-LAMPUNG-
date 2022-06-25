@@ -41,7 +41,7 @@
           - show data transaksi users
     
     - data
-       - factory dan seeder dummy data for testing in e kantins
+       - factory and seeder dummy data for testing in e kantins
 </p>
 
 
