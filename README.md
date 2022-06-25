@@ -39,6 +39,9 @@
           - show data user
           - show data riwayat top up saldo user
           - show data transaksi users
+    
+    - data
+       - factory dan seeder dummy data for testing in e kantins
 </p>
 
 
@@ -56,6 +59,7 @@
          - cart session shoping cart
          - autofield js
          - phpmyadmin for databases
+         - dummy data
     </p>
 
 
@@ -65,4 +69,4 @@ laravel framework security
 
 ## License
 
-The e kantin is open-sourced software licensed under the [MIT license]([https://opensource.org/licenses/MIT](https://github.com/yusrilmahendri).
+The e kantin is open-sourced software licensed under the by yusril mahendri ([https://github.com/yusrilmahendri]).
