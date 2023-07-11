@@ -14,12 +14,9 @@ class HomeController extends Controller
     public function index(Request $request){
 
         $data = auth()->user();
-        
-        $x = $data->Saldo->siswa_id;
-         
-        $transaksi = Transaksi::where('siswa_id', $x)->paginate(10);
-
-        $saldo = Saldo::where('siswa_id', $x)->paginate(10);
+        $saldo = $data->Saldo;
+        $transaksi = Transaksi::where('siswa_id', $saldo)->paginate(10);
+        $saldo = Saldo::where('siswa_id', $saldo)->paginate(10);
 
                 
         return view('siswa.index',[

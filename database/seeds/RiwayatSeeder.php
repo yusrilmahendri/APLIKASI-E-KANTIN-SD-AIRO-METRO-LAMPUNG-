@@ -12,6 +12,6 @@ class RiwayatSeeder extends Seeder
      */
     public function run()
     {
-         factory(Riwayat::class, 10)->create();
+         factory(Riwayat::class, 1)->create();
     }
 }

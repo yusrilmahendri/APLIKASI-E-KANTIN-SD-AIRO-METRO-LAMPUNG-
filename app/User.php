@@ -38,7 +38,6 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
-
      public function saldo()
     {  
         return $this->hasOne(Saldo::class, 'siswa_id');

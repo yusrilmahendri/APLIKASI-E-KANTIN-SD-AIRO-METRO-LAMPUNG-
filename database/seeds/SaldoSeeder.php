@@ -12,6 +12,6 @@ class SaldoSeeder extends Seeder
      */
     public function run()
     {
-        factory(Saldo::class, 10)->create();
+        factory(Saldo::class, 1)->create();
     }
 }
